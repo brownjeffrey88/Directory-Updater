@@ -23,8 +23,8 @@ update_success = "The requested changes have been made"
 noAttachment_body = "There was an error fulfilling your request. There was no attached image to update."
 
 # exchangelib login's
-credentials = ServiceAccount(username='NCEE\\directorymain', password='NCee1914')
-account = Account(primary_smtp_address='directorymain@nceent.com', credentials=credentials,
+credentials = ServiceAccount(username='domain\\directorymain', password='')
+account = Account(primary_smtp_address='directorymain@domaint.com', credentials=credentials,
                   autodiscover=True, access_type=DELEGATE)
 
 
